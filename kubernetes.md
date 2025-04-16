@@ -106,6 +106,17 @@ get any random MAC address to put in your ubuntu VM: https://www.browserling.com
 
 
 
+
+
+
+
+    kubeadm join 192.168.64.101:6443 --token 6jug5o.rv8d3itmuibp2zma \
+	--discovery-token-ca-cert-hash sha256:04a684cd8e5dade875e3af966fd907ce68bbb73b6cd950f6d4f8d8057755bf6b
+
+
+
+
+
 # troubleshooting
 ##### if any VM was stucked some commands on multipass: 
     # list all VM's with status
